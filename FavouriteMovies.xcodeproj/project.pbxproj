@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		99BA87362A2F8500008185DB /* FavouriteMoviesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BA87352A2F8500008185DB /* FavouriteMoviesApp.swift */; };
-		99BA87382A2F8500008185DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BA87372A2F8500008185DB /* ContentView.swift */; };
 		99BA873A2A2F8501008185DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BA87392A2F8501008185DB /* Assets.xcassets */; };
 		99BA873D2A2F8501008185DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BA873C2A2F8501008185DB /* Preview Assets.xcassets */; };
+		99BA87442A2F8518008185DB /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BA87432A2F8517008185DB /* MoviesListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		99BA87322A2F8500008185DB /* FavouriteMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99BA87352A2F8500008185DB /* FavouriteMoviesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteMoviesApp.swift; sourceTree = "<group>"; };
-		99BA87372A2F8500008185DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99BA87392A2F8501008185DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99BA873C2A2F8501008185DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99BA87432A2F8517008185DB /* MoviesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				99BA87352A2F8500008185DB /* FavouriteMoviesApp.swift */,
-				99BA87372A2F8500008185DB /* ContentView.swift */,
+				99BA87462A2F8558008185DB /* Model */,
+				99BA87452A2F853D008185DB /* Views */,
 				99BA87392A2F8501008185DB /* Assets.xcassets */,
 				99BA873B2A2F8501008185DB /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				99BA873C2A2F8501008185DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99BA87452A2F853D008185DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99BA87432A2F8517008185DB /* MoviesListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99BA87462A2F8558008185DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99BA87382A2F8500008185DB /* ContentView.swift in Sources */,
+				99BA87442A2F8518008185DB /* MoviesListView.swift in Sources */,
 				99BA87362A2F8500008185DB /* FavouriteMoviesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
